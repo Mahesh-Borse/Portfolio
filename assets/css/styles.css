@@ -414,6 +414,10 @@ img {
   width: 60%;
 }
 
+.skills__react {
+  width: 71%;
+}
+
 .skills__img {
   border-radius: .5rem;
 }
