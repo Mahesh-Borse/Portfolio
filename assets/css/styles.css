@@ -287,8 +287,10 @@ img {
   color: var(--font-color);
 }
 
-.home__social-icon:hover {
+.home__social-icon i:hover {
+  transition: 0.5s ease-out;
   color: var(--primary-color);
+  transform: scale(1.2);
 }
 
 .home__img {
@@ -416,11 +418,15 @@ img {
 }
 
 .skills__codeigniter {
-  width: 60%;
+  width: 80%;
 }
 
 .skills__react {
   width: 71%;
+}
+
+.skills__ps {
+  width: 55%;
 }
 
 .skills__img {
