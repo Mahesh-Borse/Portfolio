@@ -10,17 +10,14 @@
 
 /*===== Colores =====*/
 
+/* body colors ====================================================== */
+
 :root {
-  /* body colors ====================================================== */
+  /* accent colors ====================================================== */
   --primary-color: #0ebdf7;
   --background-color: #fff;
   --font-color: #000;
   --footer-color: rgb(34, 34, 34);
-  /* night mode ======================================================== */
-  /* --background-color: #000;
-  --font-color: #fff;
-  --footer-color: rgb(197, 197, 197); */
-  /* accent colors ====================================================== */
   /* --primary-color: #d240ff; */
   /* --primary-color: #ff00b3; */
   /* --primary-color: #ff2d2d; */
@@ -31,7 +28,15 @@
   /* --primary-color: #75a1d5; */
 }
 
-/*===== Fuente y tipografia =====*/
+/* night mode ======================================================== */
+
+:root {
+  /* --background-color: #000;
+  --font-color: #fff;
+  --footer-color: rgb(197, 197, 197); */
+}
+
+/*===== Body fonts =====*/
 
 :root {
   --body-font: 'Ubuntu', sans-serif;
@@ -411,7 +416,7 @@ img {
 }
 
 .skills__codeigniter {
-  width: 80%;
+  width: 60%;
 }
 
 .skills__react {
@@ -422,7 +427,7 @@ img {
   border-radius: .5rem;
 }
 
-/* ===== WORK =====*/ 
+/* ===== WORK =====*/
 
 .work__container {
   row-gap: 2rem;
