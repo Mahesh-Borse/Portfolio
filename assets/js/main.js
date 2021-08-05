@@ -115,4 +115,4 @@ function showThemes() {
         checkboxes.style.display = "none";
         show = true;
     }
-}
+} 
