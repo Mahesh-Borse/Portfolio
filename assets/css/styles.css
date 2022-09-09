@@ -206,7 +206,9 @@ img {
 }
 
 .nav__link:hover {
+  color: var(--primary-color);
   position: relative;
+  text-decoration: none;
 }
 
 .nav__list a {
@@ -370,7 +372,7 @@ img {
   position: relative;
   font-weight: var(--font-semi);
   padding: .5rem 1rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-1);
   border-radius: .5rem;
   border: 2px solid rgba(128, 128, 128, 0.5);
   box-shadow: 0 0 20px rgba(128, 128, 128, 0.3);
@@ -402,28 +404,44 @@ img {
   color: var(--font-color);
 }
 
+.skills__java {
+  width: 93%;
+}
+
 .skills__html {
-  width: 90%;
+  width: 95%;
 }
 
 .skills__css {
   width: 87%;
 }
 
+.skills__android {
+  width: 74%;
+}
+
+.skills__oop {
+  width: 95%;
+}
+
 .skills__js {
-  width: 65%;
+  width: 91%;
 }
 
 .skills__ux {
-  width: 64%;
+  width: 73%;
+}
+
+.skills__bs {
+  width: 96%;
 }
 
 .skills__codeigniter {
-  width: 80%;
+  width: 65%;
 }
 
 .skills__php {
-  width: 80%;
+  width: 65%;
 }
 
 .skills__react {
@@ -505,6 +523,20 @@ img {
   cursor: pointer;
   margin-left: auto;
   color: var(--background-color);
+}
+.cv__button:hover {
+  background-color: var(--primary-color);
+
+}
+.cv__button {
+  /* display: block; */
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
+  color: var(--background-color);
+  background-color: #000;
 }
 
 /* theme colors */
